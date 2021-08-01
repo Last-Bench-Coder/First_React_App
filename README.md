@@ -20,3 +20,8 @@ Also check npm(node package manager) version
 ```
 npm -v
 ```
+
+![image](https://user-images.githubusercontent.com/81896060/127759502-7878d655-dcd2-47a0-add1-8a8fdeee2f76.png)
+
+
+Please [Download](https://nodejs.org/en/download) the node js and install, If Node JS is not installed in your machine.
