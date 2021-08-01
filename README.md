@@ -89,9 +89,15 @@ After creation of react application, our project look like this:
 
 ![image](https://user-images.githubusercontent.com/81896060/127761602-030d67e4-c143-45a3-97e2-a7c25414b253.png)
 
-##node_modules
+## node_modules
 
 node_modules folder contains all the dependencies & packages that may be used for building you react app, we should not modify this folder.
 
+## public
+
+All the static files kept under public folder like favicon, logo, robots.txt etc... Public folder files will be accessed via %PUBLIC_URL%
+index.html file is the root file of the react application, Everything will be rendered through it on the front end. 
+
+## src
 
 
