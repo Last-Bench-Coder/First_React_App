@@ -7,9 +7,18 @@ npm/npx create-react-app <<app name>>
 
 ###### Have a look Some difference between npx vs npm
 
-NPM | NPM
+NPM | NPX
 ------------ | -------------
 The npm stands for Node Package Manager | The npx stands for Node Package Execute
+NPM by itself does not simply run any package. If you want to run a package using NPM, you must specify that package in your package.json file. | NPX will check whether <command> exists in $PATH, or in the local project binaries, and execute it, also is the ability to execute a package which wasn't previously installed.
+When executables are installed via NPM packages, NPM links to them: local installs have "links" created at ./node_modules/.bin/ directory. global installs have "links" created from the global bin/ directory (e.g. /usr/local/bin) | npx command may be helpful in the script section of a package.json file, when it is unwanted to define a dependency which might not be commonly used or any other reason: ```
+"scripts": {
+    "start": "npx gulp@3.9.1",
+    "serve": "npx http-server"
+}
+```
+
+
 
 Before you start creating the app, please check whether node js is installed in your machine. 
 
