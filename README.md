@@ -1,5 +1,5 @@
 # Simple and super easy to create the react application
-It is simple react app created with the help of command [create-react-app](https://create-react-app.dev/)
+It is simple!!! react application is created with the help of command [create-react-app](https://create-react-app.dev/)
 
 ```
 npm/npx create-react-app <<app name>>
@@ -99,5 +99,27 @@ All the static files kept under public folder like favicon, logo, robots.txt etc
 index.html file is the root file of the react application, Everything will be rendered through it on the front end. 
 
 ## src
+
+In src folder we can keep all the items like css, components and other assets of our projects. This folder also consists file like startup.
+
+###### App.Js
+
+App.Js is a component also called as parent component file of our react application, we import this file inside index.js component to render content in the root element(public folder index.html).
+
+`It is not mandatory that we should use file name as App.Js, we can keep any name same should be imported in index.js as wel as we should make sure that its extension must be .js and its name must start with an uppercase letter`
+
+Next we will discuss about index.js
+
+## index.js
+
+It is satarting point of our application, all the component in our application renders through this file to the index.html(in public folder)
+
+![image](https://user-images.githubusercontent.com/81896060/127765762-97a17169-dcef-4d41-801d-24eb4c82d4dc.png)
+
+all the componet detail will be loaded in div with id root in index.html
+
+![image](https://user-images.githubusercontent.com/81896060/127765830-aabb7462-7c23-40d2-b124-511826ab69fb.png)
+
+
 
 
