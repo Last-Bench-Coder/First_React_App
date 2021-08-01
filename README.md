@@ -1,4 +1,4 @@
-# First_React_App
+# How to create our first react application
 It is simple react app created with the help of command [create-react-app](https://create-react-app.dev/)
 
 ```
