@@ -11,12 +11,7 @@ NPM | NPX
 ------------ | -------------
 The npm stands for Node Package Manager | The npx stands for Node Package Execute
 NPM by itself does not simply run any package. If you want to run a package using NPM, you must specify that package in your package.json file. | NPX will check whether <command> exists in $PATH, or in the local project binaries, and execute it, also is the ability to execute a package which wasn't previously installed.
-When executables are installed via NPM packages, NPM links to them: local installs have "links" created at ./node_modules/.bin/ directory. global installs have "links" created from the global bin/ directory (e.g. /usr/local/bin) | npx command may be helpful in the script section of a package.json file, when it is unwanted to define a dependency which might not be commonly used or any other reason: ```
-"scripts": {
-    "start": "npx gulp@3.9.1",
-    "serve": "npx http-server"
-}
-```
+When executables are installed via NPM packages, NPM links to them: 1. local installs have "links" created at ./node_modules/.bin/ directory. 2. global installs have "links" created from the global bin/ directory (e.g. /usr/local/bin) | npx command may be helpful in the script section of a package.json file, when it is unwanted to define a dependency which might not be commonly used or any other reason: Example  "start": "npx gulp@3.9.1"
 
 
 
@@ -61,6 +56,8 @@ OR use below command to create the react app(i.e with the help of *npx*)
 ```
 npx create-react-app first-react-app
 ```
+
+The above command generate a react app boilerplate within the path the command had run in, and ensures that you always use the latest version of a generator or build tool without having to upgrade each time you’re about to use it.
 
 ![image](https://user-images.githubusercontent.com/81896060/127759954-aebcf4ee-12ac-4ebf-82e0-d8fee4f50dcd.png)
 
