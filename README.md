@@ -25,3 +25,24 @@ npm -v
 
 
 Please [Download](https://nodejs.org/en/download) the node js and install, If Node JS is not installed in your machine.
+
+## Lets Start Creating the app
+
+Use below mentioned command to create the new react app
+
+```
+create-react-app first-react-app
+```
+
+Sometime you will get error like `'create-react-app' is not recognized as an internal or external command,
+operable program or batch file.` it is due to command is not regstered globaly. Use below command to register the create-react-app then run again `create-react-app first-react-app`.
+
+```
+npm install create-react-app -g
+```
+
+OR use below command to create the react app(i.e with the help of *npx*)
+
+```
+create-react-app first-react-app
+```
