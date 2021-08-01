@@ -1,4 +1,4 @@
-# How to create our first react application
+# Simple and super easy to create the react application
 It is simple react app created with the help of command [create-react-app](https://create-react-app.dev/)
 
 ```
@@ -78,5 +78,15 @@ Here is the Output screen
 
 ![image](https://user-images.githubusercontent.com/81896060/127760082-f0c4f56e-1bb9-47c2-9443-b7faa4d17a76.png)
 
+
+## Lets Learn something about React App Folder Structure:
+
+As we know already, ReactJs is a frontend Javascript library and its used for building rich and awsome User Interfaces.
+
+React is also called as Single Page Applications because React contains only one html file and all others are handled by Javascript. In a traditional website like ASP.Net, Java, we would have a different html files being served for different features. But React is all about Components and Components refer to small independent parts of your specific functionality and UI.
+
+After creation of react application, our project look like this:
+
+![image](https://user-images.githubusercontent.com/81896060/127761602-030d67e4-c143-45a3-97e2-a7c25414b253.png)
 
 
