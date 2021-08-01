@@ -44,5 +44,27 @@ npm install create-react-app -g
 OR use below command to create the react app(i.e with the help of *npx*)
 
 ```
-create-react-app first-react-app
+npx create-react-app first-react-app
 ```
+
+![image](https://user-images.githubusercontent.com/81896060/127759954-aebcf4ee-12ac-4ebf-82e0-d8fee4f50dcd.png)
+
+![image](https://user-images.githubusercontent.com/81896060/127759974-41d829dd-82fe-47bb-bffc-c13762a7ccfa.png)
+
+Greate we have created the first react app
+
+Just Relax and redirected to created directory and run the application with the help of below commands
+
+```
+cd first-react-app
+npm start
+```
+
+![image](https://user-images.githubusercontent.com/81896060/127760070-4ba80c12-326f-4faa-9d9c-67929917e11d.png)
+
+Here is the Output screen
+
+![image](https://user-images.githubusercontent.com/81896060/127760082-f0c4f56e-1bb9-47c2-9443-b7faa4d17a76.png)
+
+
+
