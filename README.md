@@ -7,11 +7,9 @@ npm/npx create-react-app <<app name>>
 
 ###### Have a look Some difference between npx vs npm
 
-Here is the some difference betweeen npx vs npm
-
 NPM | NPM
 ------------ | -------------
-
+The npm stands for Node Package Manager | The npx stands for Node Package Execute
 
 Before you start creating the app, please check whether node js is installed in your machine. 
 
