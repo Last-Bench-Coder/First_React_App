@@ -5,7 +5,7 @@ It is simple react app created with the help of command [create-react-app](https
 npm/npx create-react-app <<app name>>
 ```
 
-######Some difference between npx vs npm
+###Some difference between npx vs npm
 
 Here is the some difference betweeen npx vs npm
 
