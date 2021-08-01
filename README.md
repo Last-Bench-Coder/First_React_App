@@ -106,6 +106,9 @@ In src folder we can keep all the items like css, components and other assets of
 
 App.Js is a component also called as parent component file of our react application, we import this file inside index.js component to render content in the root element(public folder index.html).
 
+![image](https://user-images.githubusercontent.com/81896060/127765911-8dd7c6e7-616d-4560-b73a-692e8ef193df.png)
+
+
 `It is not mandatory that we should use file name as App.Js, we can keep any name same should be imported in index.js as wel as we should make sure that its extension must be .js and its name must start with an uppercase letter`
 
 Next we will discuss about index.js
@@ -121,5 +124,14 @@ all the componet detail will be loaded in div with id root in index.html
 ![image](https://user-images.githubusercontent.com/81896060/127765830-aabb7462-7c23-40d2-b124-511826ab69fb.png)
 
 
+## package-lock.json
 
+This file is mainly used to maintain the version of installed dependencies
 
+## package.json
+
+This file help us to maintain the, which dependencies are necessary for our application
+
+That's it for this article, in case any concerns please reach out to [Reach to Author](chakrapani24@outlook.com)
+
+[Please Visit](https://lastbenchcoder.blogspot.com)
