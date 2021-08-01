@@ -5,6 +5,14 @@ It is simple react app created with the help of command [create-react-app](https
 npm/npx create-react-app <<app name>>
 ```
 
+######Some difference between npx vs npm
+
+Here is the some difference betweeen npx vs npm
+
+NPM | NPM
+------------ | -------------
+
+
 Before you start creating the app, please check whether node js is installed in your machine. 
 
 Please run below command in command prompt.
