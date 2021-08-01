@@ -89,4 +89,9 @@ After creation of react application, our project look like this:
 
 ![image](https://user-images.githubusercontent.com/81896060/127761602-030d67e4-c143-45a3-97e2-a7c25414b253.png)
 
+##node_modules
+
+node_modules folder contains all the dependencies & packages that may be used for building you react app, we should not modify this folder.
+
+
 
